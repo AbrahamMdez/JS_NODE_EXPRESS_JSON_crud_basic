@@ -12,7 +12,7 @@ router.post('/movies', (req, res) => {
     const { title, amounth, price } = req.body;
     //Aqui le decimos que si alguno de los datos no es introducido lance un aviso y si esta bien, muestre datos.
     if ( title && amounth && price ) {
-        res.send({ title, amounth, price });
+        res.json('saved');
     } else {
         res.send('Datos erroneos');
     }
