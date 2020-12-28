@@ -1,0 +1,23 @@
+{
+  "name": "my_second_app_crud",
+  "version": "1.0.0",
+  "description": "my_second_app_CRUD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbrahamMdez/my_second_app_CRUD.git"
+  },
+  "author": "Abraham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbrahamMdez/my_second_app_CRUD/issues"
+  },
+  "homepage": "https://github.com/AbrahamMdez/my_second_app_CRUD#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
