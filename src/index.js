@@ -8,7 +8,8 @@ app.set('port', process.env.PORT || 3000);
 
 //Routes
 //Aqui requerimos el archivo donde estan las rutas, que esta dentro de carpeta routes y archivo films.js
-app.use(require('../routes/films'));
+app.use(require('../routes/index'));
+app.use(require('../routes/movies'));
 
 //Middelwares
 app.use(morgan('dev'));
